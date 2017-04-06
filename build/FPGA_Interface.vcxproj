@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F69D1B85-C729-400B-9711-C5D3EA29330E}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>FPGA_Interface</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projekt2016\FPGA_Interface_Cell_Final\build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FPGA_Interface.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FPGA_Interface</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projekt2016\FPGA_Interface_Cell_Final\build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FPGA_Interface.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FPGA_Interface</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projekt2016\FPGA_Interface_Cell_Final\build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">FPGA_Interface.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">FPGA_Interface</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projekt2016\FPGA_Interface_Cell_Final\build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">FPGA_Interface.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">FPGA_Interface</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projekt2016\FPGA_Interface_Cell_Final\build;E:\Projekt2016\FPGA_Interface_Cell_Final;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\..\..\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include\msinttypes;E:\Projekt2016\FPGA_Interface_Cell_Final\include;C:\Qt5.6\5.6\msvc2013_64\include;C:\Qt5.6\5.6\msvc2013_64\include\QtWidgets;C:\Qt5.6\5.6\msvc2013_64\include\QtGui;C:\Qt5.6\5.6\msvc2013_64\include\QtCore;C:\Qt5.6\5.6\msvc2013_64\.\mkspecs\win32-msvc2013;C:\opencv-3.0.1\sources\build\install\include;C:\opencv-3.0.1\sources\build\install\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projekt2016\FPGA_Interface_Cell_Final\build;E:\Projekt2016\FPGA_Interface_Cell_Final;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\..\..\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include\msinttypes;E:\Projekt2016\FPGA_Interface_Cell_Final\include;C:\Qt5.6\5.6\msvc2013_64\include;C:\Qt5.6\5.6\msvc2013_64\include\QtWidgets;C:\Qt5.6\5.6\msvc2013_64\include\QtGui;C:\Qt5.6\5.6\msvc2013_64\include\QtCore;C:\Qt5.6\5.6\msvc2013_64\.\mkspecs\win32-msvc2013;C:\opencv-3.0.1\sources\build\install\include;C:\opencv-3.0.1\sources\build\install\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projekt2016\FPGA_Interface_Cell_Final\build;E:\Projekt2016\FPGA_Interface_Cell_Final;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\..\..\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include\msinttypes;E:\Projekt2016\FPGA_Interface_Cell_Final\include;C:\Qt5.6\5.6\msvc2013_64\include;C:\Qt5.6\5.6\msvc2013_64\include\QtWidgets;C:\Qt5.6\5.6\msvc2013_64\include\QtGui;C:\Qt5.6\5.6\msvc2013_64\include\QtCore;C:\Qt5.6\5.6\msvc2013_64\.\mkspecs\win32-msvc2013;C:\opencv-3.0.1\sources\build\install\include;C:\opencv-3.0.1\sources\build\install\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc and uic for target FPGA_Interface</Message>
+      <Command>setlocal
+cd E:\Projekt2016\FPGA_Interface_Cell_Final\build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen E:/Projekt2016/FPGA_Interface_Cell_Final/build/CMakeFiles/FPGA_Interface_automoc.dir/ Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\fglib5.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\display_lib.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\clsersis.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_videostab310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_superres310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_stitching310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_shape310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_photo310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_objdetect310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_calib3d310d.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\siso_genicam.lib;C:\Qt5.6\5.6\msvc2013_64\lib\Qt5Widgetsd.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_features2d310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_ml310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_highgui310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_videoio310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_imgcodecs310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_flann310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_video310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_imgproc310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_core310d.lib;C:\Qt5.6\5.6\msvc2013_64\lib\Qt5Guid.lib;C:\Qt5.6\5.6\msvc2013_64\lib\Qt5Cored.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projekt2016/FPGA_Interface_Cell_Final/build/Debug/FPGA_Interface.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projekt2016/FPGA_Interface_Cell_Final/build/Debug/FPGA_Interface.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projekt2016\FPGA_Interface_Cell_Final\build;E:\Projekt2016\FPGA_Interface_Cell_Final;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\..\..\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include\msinttypes;E:\Projekt2016\FPGA_Interface_Cell_Final\include;C:\Qt5.6\5.6\msvc2013_64\include;C:\Qt5.6\5.6\msvc2013_64\include\QtWidgets;C:\Qt5.6\5.6\msvc2013_64\include\QtGui;C:\Qt5.6\5.6\msvc2013_64\include\QtCore;C:\Qt5.6\5.6\msvc2013_64\.\mkspecs\win32-msvc2013;C:\opencv-3.0.1\sources\build\install\include;C:\opencv-3.0.1\sources\build\install\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projekt2016\FPGA_Interface_Cell_Final\build;E:\Projekt2016\FPGA_Interface_Cell_Final;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\..\..\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include\msinttypes;E:\Projekt2016\FPGA_Interface_Cell_Final\include;C:\Qt5.6\5.6\msvc2013_64\include;C:\Qt5.6\5.6\msvc2013_64\include\QtWidgets;C:\Qt5.6\5.6\msvc2013_64\include\QtGui;C:\Qt5.6\5.6\msvc2013_64\include\QtCore;C:\Qt5.6\5.6\msvc2013_64\.\mkspecs\win32-msvc2013;C:\opencv-3.0.1\sources\build\install\include;C:\opencv-3.0.1\sources\build\install\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projekt2016\FPGA_Interface_Cell_Final\build;E:\Projekt2016\FPGA_Interface_Cell_Final;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\..\..\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include\msinttypes;E:\Projekt2016\FPGA_Interface_Cell_Final\include;C:\Qt5.6\5.6\msvc2013_64\include;C:\Qt5.6\5.6\msvc2013_64\include\QtWidgets;C:\Qt5.6\5.6\msvc2013_64\include\QtGui;C:\Qt5.6\5.6\msvc2013_64\include\QtCore;C:\Qt5.6\5.6\msvc2013_64\.\mkspecs\win32-msvc2013;C:\opencv-3.0.1\sources\build\install\include;C:\opencv-3.0.1\sources\build\install\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc and uic for target FPGA_Interface</Message>
+      <Command>setlocal
+cd E:\Projekt2016\FPGA_Interface_Cell_Final\build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen E:/Projekt2016/FPGA_Interface_Cell_Final/build/CMakeFiles/FPGA_Interface_automoc.dir/ Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\fglib5.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\display_lib.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\clsersis.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_videostab310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_superres310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_stitching310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_shape310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_photo310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_objdetect310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_calib3d310.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\siso_genicam.lib;C:\Qt5.6\5.6\msvc2013_64\lib\Qt5Widgets.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_features2d310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_ml310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_highgui310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_videoio310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_imgcodecs310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_flann310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_video310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_imgproc310.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_core310.lib;C:\Qt5.6\5.6\msvc2013_64\lib\Qt5Gui.lib;C:\Qt5.6\5.6\msvc2013_64\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projekt2016/FPGA_Interface_Cell_Final/build/Release/FPGA_Interface.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projekt2016/FPGA_Interface_Cell_Final/build/Release/FPGA_Interface.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projekt2016\FPGA_Interface_Cell_Final\build;E:\Projekt2016\FPGA_Interface_Cell_Final;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\..\..\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include\msinttypes;E:\Projekt2016\FPGA_Interface_Cell_Final\include;C:\Qt5.6\5.6\msvc2013_64\include;C:\Qt5.6\5.6\msvc2013_64\include\QtWidgets;C:\Qt5.6\5.6\msvc2013_64\include\QtGui;C:\Qt5.6\5.6\msvc2013_64\include\QtCore;C:\Qt5.6\5.6\msvc2013_64\.\mkspecs\win32-msvc2013;C:\opencv-3.0.1\sources\build\install\include;C:\opencv-3.0.1\sources\build\install\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projekt2016\FPGA_Interface_Cell_Final\build;E:\Projekt2016\FPGA_Interface_Cell_Final;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\..\..\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include\msinttypes;E:\Projekt2016\FPGA_Interface_Cell_Final\include;C:\Qt5.6\5.6\msvc2013_64\include;C:\Qt5.6\5.6\msvc2013_64\include\QtWidgets;C:\Qt5.6\5.6\msvc2013_64\include\QtGui;C:\Qt5.6\5.6\msvc2013_64\include\QtCore;C:\Qt5.6\5.6\msvc2013_64\.\mkspecs\win32-msvc2013;C:\opencv-3.0.1\sources\build\install\include;C:\opencv-3.0.1\sources\build\install\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projekt2016\FPGA_Interface_Cell_Final\build;E:\Projekt2016\FPGA_Interface_Cell_Final;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\..\..\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include\msinttypes;E:\Projekt2016\FPGA_Interface_Cell_Final\include;C:\Qt5.6\5.6\msvc2013_64\include;C:\Qt5.6\5.6\msvc2013_64\include\QtWidgets;C:\Qt5.6\5.6\msvc2013_64\include\QtGui;C:\Qt5.6\5.6\msvc2013_64\include\QtCore;C:\Qt5.6\5.6\msvc2013_64\.\mkspecs\win32-msvc2013;C:\opencv-3.0.1\sources\build\install\include;C:\opencv-3.0.1\sources\build\install\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc and uic for target FPGA_Interface</Message>
+      <Command>setlocal
+cd E:\Projekt2016\FPGA_Interface_Cell_Final\build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen E:/Projekt2016/FPGA_Interface_Cell_Final/build/CMakeFiles/FPGA_Interface_automoc.dir/ MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\fglib5.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\display_lib.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\clsersis.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_videostab310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_superres310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_stitching310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_shape310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_photo310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_objdetect310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_calib3d310d.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\siso_genicam.lib;C:\Qt5.6\5.6\msvc2013_64\lib\Qt5Widgets.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_features2d310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_ml310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_highgui310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_videoio310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_imgcodecs310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_flann310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_video310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_imgproc310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_core310d.lib;C:\Qt5.6\5.6\msvc2013_64\lib\Qt5Gui.lib;C:\Qt5.6\5.6\msvc2013_64\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projekt2016/FPGA_Interface_Cell_Final/build/MinSizeRel/FPGA_Interface.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projekt2016/FPGA_Interface_Cell_Final/build/MinSizeRel/FPGA_Interface.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projekt2016\FPGA_Interface_Cell_Final\build;E:\Projekt2016\FPGA_Interface_Cell_Final;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\..\..\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include\msinttypes;E:\Projekt2016\FPGA_Interface_Cell_Final\include;C:\Qt5.6\5.6\msvc2013_64\include;C:\Qt5.6\5.6\msvc2013_64\include\QtWidgets;C:\Qt5.6\5.6\msvc2013_64\include\QtGui;C:\Qt5.6\5.6\msvc2013_64\include\QtCore;C:\Qt5.6\5.6\msvc2013_64\.\mkspecs\win32-msvc2013;C:\opencv-3.0.1\sources\build\install\include;C:\opencv-3.0.1\sources\build\install\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projekt2016\FPGA_Interface_Cell_Final\build;E:\Projekt2016\FPGA_Interface_Cell_Final;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\..\..\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include\msinttypes;E:\Projekt2016\FPGA_Interface_Cell_Final\include;C:\Qt5.6\5.6\msvc2013_64\include;C:\Qt5.6\5.6\msvc2013_64\include\QtWidgets;C:\Qt5.6\5.6\msvc2013_64\include\QtGui;C:\Qt5.6\5.6\msvc2013_64\include\QtCore;C:\Qt5.6\5.6\msvc2013_64\.\mkspecs\win32-msvc2013;C:\opencv-3.0.1\sources\build\install\include;C:\opencv-3.0.1\sources\build\install\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projekt2016\FPGA_Interface_Cell_Final\build;E:\Projekt2016\FPGA_Interface_Cell_Final;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\..\..\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\include\msinttypes;E:\Projekt2016\FPGA_Interface_Cell_Final\include;C:\Qt5.6\5.6\msvc2013_64\include;C:\Qt5.6\5.6\msvc2013_64\include\QtWidgets;C:\Qt5.6\5.6\msvc2013_64\include\QtGui;C:\Qt5.6\5.6\msvc2013_64\include\QtCore;C:\Qt5.6\5.6\msvc2013_64\.\mkspecs\win32-msvc2013;C:\opencv-3.0.1\sources\build\install\include;C:\opencv-3.0.1\sources\build\install\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc and uic for target FPGA_Interface</Message>
+      <Command>setlocal
+cd E:\Projekt2016\FPGA_Interface_Cell_Final\build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen E:/Projekt2016/FPGA_Interface_Cell_Final/build/CMakeFiles/FPGA_Interface_automoc.dir/ RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\fglib5.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\display_lib.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\clsersis.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_videostab310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_superres310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_stitching310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_shape310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_photo310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_objdetect310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_calib3d310d.lib;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\lib\visualc\siso_genicam.lib;C:\Qt5.6\5.6\msvc2013_64\lib\Qt5Widgets.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_features2d310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_ml310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_highgui310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_videoio310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_imgcodecs310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_flann310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_video310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_imgproc310d.lib;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\opencv_core310d.lib;C:\Qt5.6\5.6\msvc2013_64\lib\Qt5Gui.lib;C:\Qt5.6\5.6\msvc2013_64\lib\Qt5Core.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projekt2016/FPGA_Interface_Cell_Final/build/RelWithDebInfo/FPGA_Interface.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projekt2016/FPGA_Interface_Cell_Final/build/RelWithDebInfo/FPGA_Interface.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projekt2016\FPGA_Interface_Cell_Final\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Projekt2016/FPGA_Interface_Cell_Final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Projekt2016/FPGA_Interface_Cell_Final -BE:/Projekt2016/FPGA_Interface_Cell_Final/build --check-stamp-file E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/Projekt2016/FPGA_Interface_Cell_Final/CMakeLists.txt;E:\Projekt2016\FPGA_Interface_Cell_Final\CMakeLists.txt;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeCCompiler.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoPlatform.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\FindFgLib5.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoLibDir.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\FindClSerSis.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoLibDir.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\FindSisoDisplayLib.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoLibDir.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\opencv-3.0.1\sources\build\install\OpenCVConfig-version.cmake;C:\opencv-3.0.1\sources\build\install\OpenCVConfig.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVConfig.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVModules.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVModules-debug.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVModules-release.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Projekt2016/FPGA_Interface_Cell_Final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Projekt2016/FPGA_Interface_Cell_Final -BE:/Projekt2016/FPGA_Interface_Cell_Final/build --check-stamp-file E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/Projekt2016/FPGA_Interface_Cell_Final/CMakeLists.txt;E:\Projekt2016\FPGA_Interface_Cell_Final\CMakeLists.txt;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeCCompiler.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoPlatform.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\FindFgLib5.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoLibDir.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\FindClSerSis.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoLibDir.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\FindSisoDisplayLib.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoLibDir.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\opencv-3.0.1\sources\build\install\OpenCVConfig-version.cmake;C:\opencv-3.0.1\sources\build\install\OpenCVConfig.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVConfig.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVModules.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVModules-debug.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVModules-release.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Projekt2016/FPGA_Interface_Cell_Final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Projekt2016/FPGA_Interface_Cell_Final -BE:/Projekt2016/FPGA_Interface_Cell_Final/build --check-stamp-file E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/Projekt2016/FPGA_Interface_Cell_Final/CMakeLists.txt;E:\Projekt2016\FPGA_Interface_Cell_Final\CMakeLists.txt;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeCCompiler.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoPlatform.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\FindFgLib5.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoLibDir.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\FindClSerSis.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoLibDir.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\FindSisoDisplayLib.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoLibDir.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\opencv-3.0.1\sources\build\install\OpenCVConfig-version.cmake;C:\opencv-3.0.1\sources\build\install\OpenCVConfig.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVConfig.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVModules.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVModules-debug.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVModules-release.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Projekt2016/FPGA_Interface_Cell_Final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Projekt2016/FPGA_Interface_Cell_Final -BE:/Projekt2016/FPGA_Interface_Cell_Final/build --check-stamp-file E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/Projekt2016/FPGA_Interface_Cell_Final/CMakeLists.txt;E:\Projekt2016\FPGA_Interface_Cell_Final\CMakeLists.txt;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeCCompiler.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoPlatform.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\FindFgLib5.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoLibDir.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\FindClSerSis.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoLibDir.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\FindSisoDisplayLib.cmake;C:\Program Files\SiliconSoftware\Runtime5.4.1.2\cmake\modules\SisoLibDir.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt5.6\5.6\msvc2013_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\opencv-3.0.1\sources\build\install\OpenCVConfig-version.cmake;C:\opencv-3.0.1\sources\build\install\OpenCVConfig.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVConfig.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVModules.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVModules-debug.cmake;C:\opencv-3.0.1\sources\build\install\x64\vc12\lib\OpenCVModules-release.cmake;E:\Projekt2016\FPGA_Interface_Cell_Final\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\ui_FPGA_Interfacemainwindow.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\ui_FPGA_Interfaceiniselectionwindow.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\defines.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\point.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\FPGA_Interface_Core.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\FPGA_Interfaceiniselectionwindow.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\FPGA_Interfacemainwindow.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Types.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Point_case_conflict.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\FPGA_InterfaceIni.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Project.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\ROIManager.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\RB_Plot.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\ROIAnalysis.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Ringbuffer.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\RingbufferItem.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\SiSo_AppletIF.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\SiSo_Applet_min.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\CL.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\CoaXPress.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Kamera_Dummy.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\kamera_I.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Kamera_JAI_Pulnix_AccuPixel.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Kamera_Mikrotron_MC258x.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\tree.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\FPGA_InterfaceIniDefines.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\any.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\inifile.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\infotag.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\stdutils.h" />
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\stringutils.h" />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\RB_Plot.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\ROIAnalysis.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\ROIManager.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\Project.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\FPGA_Interface.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\FPGA_Interface_Core.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\FPGA_Interfaceiniselectionwindow.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\FPGA_Interfacemainwindow.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\FPGA_InterfaceIni.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\Ringbuffer.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\RingbufferItem.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\SiSo_AppletIF.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\SiSo_Applet_min.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\CL.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\CoaXPress.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\Kamera_Dummy.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\Kamera_I.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\Kamera_JAI_Pulnix_AccuPixel.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\Kamera_Mikrotron_MC258x.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\inifile.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\infotag.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\stringutils.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\stdutils.cpp"  />
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\build\FPGA_Interface_automoc.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/Projekt2016/FPGA_Interface_Cell_Final/build/ZERO_CHECK.vcxproj">
+      <Project>82FB63F5-9283-40F8-AABA-649F9DD3E540</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\RB_Plot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\ROIAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\ROIManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\Project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\FPGA_Interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\FPGA_Interface_Core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\FPGA_Interfaceiniselectionwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\FPGA_Interfacemainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\FPGA_InterfaceIni.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\Ringbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\RingbufferItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\SiSo_AppletIF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\SiSo_Applet_min.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\CL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\CoaXPress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\Kamera_Dummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\Kamera_I.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\Kamera_JAI_Pulnix_AccuPixel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\Kamera_Mikrotron_MC258x.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\inifile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\infotag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\stringutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\src\stdutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projekt2016\FPGA_Interface_Cell_Final\build\FPGA_Interface_automoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\ui_FPGA_Interfacemainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\ui_FPGA_Interfaceiniselectionwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\FPGA_Interface_Core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\FPGA_Interfaceiniselectionwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\FPGA_Interfacemainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Point_case_conflict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\FPGA_InterfaceIni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\ROIManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\RB_Plot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\ROIAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Ringbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\RingbufferItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\SiSo_AppletIF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\SiSo_Applet_min.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\CL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\CoaXPress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Kamera_Dummy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\kamera_I.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Kamera_JAI_Pulnix_AccuPixel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\Kamera_Mikrotron_MC258x.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\FPGA_InterfaceIniDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\any.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\inifile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\infotag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\stdutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projekt2016\FPGA_Interface_Cell_Final\include\stringutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projekt2016\FPGA_Interface_Cell_Final\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EDF366D3-4B0D-4F89-8841-97961A3E3CC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E6FDE1A-CB61-4B5B-8ABB-AAB6B0551CAB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
