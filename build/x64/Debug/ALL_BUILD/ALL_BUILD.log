@@ -1,0 +1,10 @@
+﻿Der Buildvorgang wurde am 01.06.2016 11:23:35 gestartet.
+     1>Projekt "E:\Projekt2016\FPGA_Interface_Cell_Final\build\ALL_BUILD.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>CustomBuild:
+         Building Custom Rule E:/Projekt2016/FPGA_Interface_Cell_Final/CMakeLists.txt
+         CMake does not need to re-run because E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\generate.stamp is up-to-date.
+     1>Die Erstellung des Projekts "E:\Projekt2016\FPGA_Interface_Cell_Final\build\ALL_BUILD.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:00.08

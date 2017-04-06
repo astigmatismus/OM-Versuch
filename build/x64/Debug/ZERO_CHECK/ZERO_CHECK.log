@@ -1,0 +1,10 @@
+﻿Der Buildvorgang wurde am 01.09.2016 12:20:02 gestartet.
+     1>Projekt "E:\Projekt2016\FPGA_Interface_Cell_Final\build\ZERO_CHECK.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because E:/Projekt2016/FPGA_Interface_Cell_Final/build/CMakeFiles/generate.stamp is up-to-date.
+     1>Die Erstellung des Projekts "E:\Projekt2016\FPGA_Interface_Cell_Final\build\ZERO_CHECK.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:00.35
