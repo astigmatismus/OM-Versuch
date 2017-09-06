@@ -1,10 +1,3 @@
-﻿Der Buildvorgang wurde am 01.06.2016 11:23:35 gestartet.
-     1>Projekt "E:\Projekt2016\FPGA_Interface_Cell_Final\build\ALL_BUILD.vcxproj" auf Knoten "2", Build Ziel(e).
-     1>CustomBuild:
-         Building Custom Rule E:/Projekt2016/FPGA_Interface_Cell_Final/CMakeLists.txt
-         CMake does not need to re-run because E:\Projekt2016\FPGA_Interface_Cell_Final\build\CMakeFiles\generate.stamp is up-to-date.
-     1>Die Erstellung des Projekts "E:\Projekt2016\FPGA_Interface_Cell_Final\build\ALL_BUILD.vcxproj" ist abgeschlossen, Build Ziel(e).
-
-Build erfolgreich.
-
-Verstrichene Zeit 00:00:00.08
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1755,5): warning : The referenced project 'E:/Projekt2016/FPGA_Interface_Cell_Final/build/FPGA_Interface.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1755,5): warning : The referenced project 'E:/Projekt2016/FPGA_Interface_Cell_Final/build/ZERO_CHECK.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Platforms\x64\PlatformToolsets\v141\Toolset.targets(36,5): error MSB8036: Die Windows SDK-Version 8.1 wurde nicht gefunden. Installieren Sie die erforderliche Version des Windows SDK, oder ändern Sie die SDK-Version auf den Eigenschaftenseiten des Projekts. Sie können auch mit der rechten Maustaste auf die Projektmappe klicken und dann "Projektmappe neu zuweisen" auswählen.

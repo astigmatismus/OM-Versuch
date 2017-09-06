@@ -1,10 +1,1 @@
-﻿Der Buildvorgang wurde am 01.09.2016 12:20:02 gestartet.
-     1>Projekt "E:\Projekt2016\FPGA_Interface_Cell_Final\build\ZERO_CHECK.vcxproj" auf Knoten "2", Build Ziel(e).
-     1>CustomBuild:
-         Checking Build System
-         CMake does not need to re-run because E:/Projekt2016/FPGA_Interface_Cell_Final/build/CMakeFiles/generate.stamp is up-to-date.
-     1>Die Erstellung des Projekts "E:\Projekt2016\FPGA_Interface_Cell_Final\build\ZERO_CHECK.vcxproj" ist abgeschlossen, Build Ziel(e).
-
-Build erfolgreich.
-
-Verstrichene Zeit 00:00:00.35
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Platforms\x64\PlatformToolsets\v141\Toolset.targets(36,5): error MSB8036: Die Windows SDK-Version 8.1 wurde nicht gefunden. Installieren Sie die erforderliche Version des Windows SDK, oder ändern Sie die SDK-Version auf den Eigenschaftenseiten des Projekts. Sie können auch mit der rechten Maustaste auf die Projektmappe klicken und dann "Projektmappe neu zuweisen" auswählen.
